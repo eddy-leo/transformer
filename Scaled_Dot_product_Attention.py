@@ -15,3 +15,5 @@ def Scaled_Dot_Product_Attention(query, key, value, query_mask=None, key_mask=No
     weights = F.softmax(scores, dim=-1)
 
     return torch.matmul(weights, value)
+
+hshaj=1
